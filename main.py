@@ -1,7 +1,9 @@
 # Define tables
-def multiplication_table(n):  # multiplication table *end means it will wait and print at the end
+def multiplication_table(n):
+# end means it will wait and print at the end
+# \n means new line?
 # TITLE
-    print("\nMultiplication Table:")  # \n means new line?
+    print("\nMultiplication Table:")
 
 # COLUMN HEADERS
     print("    ", end="")  # 'end=""' -- making sure nothing is printed after the spaces in the print statement
@@ -31,7 +33,7 @@ def insert_table(n):
 
     multiplication_table(n)
 
-print("How well do you know you squares and cubes?")
+print("How well do you know your squares and cubes?")
 
 while True:
     num = int(input("Please enter an integer: "))
